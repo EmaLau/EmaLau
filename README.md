@@ -12,6 +12,12 @@ A self-hosted file converter in the spirit of iLovePDF: about **200 formats**, c
 
 `Python` `FastAPI` `Docker` `LibreOffice` `FFmpeg` `Nextcloud`
 
+### [Plico](https://github.com/EmaLau/plico)
+
+Self-hosted **PDF tools on a single web page**: 27 tools to merge, compress, OCR, sign, fill forms, redact, compare and more, plus an API with keys, saved chains and a **Nextcloud app**. Every request works in a temporary folder deleted right after the result is sent.
+
+`Python` `FastAPI` `PyMuPDF` `Docker` `Tesseract` `Nextcloud`
+
 ### [ARM-GDK-Unicorn](https://github.com/EmaLau/ARM-GDK-Unicorn)
 
 A teaching environment to write, run and debug **ARMv7 assembly**, built in Python on top of the Keystone and Unicorn engines.
