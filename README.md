@@ -24,13 +24,18 @@ A teaching environment to write, run and debug **ARMv7 assembly**, built in Pyth
 
 `Python` `ARM` `Emulation`
 
+### [Nextcloud Authentik DAV](https://github.com/EmaLau/nextcloud-authentik-dav)
+
+A small **Nextcloud app** that lets Finder, Windows Explorer, rclone and other WebDAV clients log in with the **Authentik password**, through a dedicated Authentik flow that creates no session. Security-reviewed, 27 PHPUnit tests, CI on Nextcloud 30–36.
+
+`PHP` `Nextcloud` `Authentik` `WebDAV`
+
 ## In the works
 
 Tools from my homelab, being cleaned up for release:
 
 - **TrueNAS AutoUpdate** — nightly app updates with automatic rollback
 - **SMART self-test scheduler** for TrueNAS 25.10
-- **Authentik password login** for Nextcloud WebDAV
 - a small **TrueNAS homelab toolkit** (LAN firewall for admin ports, heartbeat, storage status)
 
 ## Tech I use
