@@ -30,13 +30,18 @@ A small **Nextcloud app** that lets Finder, Windows Explorer, rclone and other W
 
 `PHP` `Nextcloud` `Authentik` `WebDAV`
 
+### [TrueNAS homelab toolkit](https://github.com/EmaLau/truenas-homelab-toolkit)
+
+Small, independent scripts from my TrueNAS homelab: **lan-guard** blocks admin-only app ports from the home LAN (IPv4 and IPv6, Docker-aware), **heartbeat** pings an external monitor so I hear when the NAS itself goes down, **storage-status** writes pool, cloud and snapshot status to one JSON file for dashboards. Plus a verified nightly backup as an example. CI with shellcheck and firewall tests in a container.
+
+`Bash` `Python` `TrueNAS` `iptables` `ZFS`
+
 ## In the works
 
 Tools from my homelab, being cleaned up for release:
 
 - **TrueNAS AutoUpdate** — nightly app updates with automatic rollback
 - **SMART self-test scheduler** for TrueNAS 25.10
-- a small **TrueNAS homelab toolkit** (LAN firewall for admin ports, heartbeat, storage status)
 
 ## Tech I use
 
